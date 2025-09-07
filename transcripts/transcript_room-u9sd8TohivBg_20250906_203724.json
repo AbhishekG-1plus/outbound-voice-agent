@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": "item_1f2f6af08f66",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.767334
+    },
+    {
+      "id": "item_b52e0cedffda",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "\u0ca8\u0cae\u0cb8\u0ccd\u0c95\u0cbe\u0cb0 Akkamma avare, nanna hesaru Abhishek. Naanu FinTrust Collections Inc. inda maatadthaidini. Nimma Rs.10,250 mattu due date 2025-08-25 bagge gentle reminder kododikke call maadidini. Payment madalu maari mareybedi."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_ce86cc83b6cf",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Okay."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.9916992
+    },
+    {
+      "id": "item_d9bbb2df1978",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Dhanyavaadagalu"
+      ],
+      "interrupted": true
+    }
+  ]
+}

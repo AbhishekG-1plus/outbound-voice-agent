@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "item_1f487f39e2d0",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.9157715
+    },
+    {
+      "id": "item_a41f5e4db7ed",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Namaste Jayanth ji, main Abhishek bol raha hoon Riverline Collections Inc. se. Aapko yaad dilane ke liye call kiya hai ki aapka Rs.10,250 ka payment 25th September 2025 ko due hai. Kripya time par payment karein taaki koi late fee"
+      ],
+      "interrupted": true
+    }
+  ]
+}

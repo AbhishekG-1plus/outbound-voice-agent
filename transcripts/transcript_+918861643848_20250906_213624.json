@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": "item_413ffdcc3364",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.90527344
+    },
+    {
+      "id": "item_ccfa8f4ba5a3",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Namaste Jayanth ji, main Abhishek bol raha hoon Riverline Collections Inc. se. Aapko yeh yaad dilane ke liye call kiya hai ki aapka Rs.10,250 ka payment 2025-09-25 tak due hai. Kripya apna payment time pe kar den. Kya main aapki payment mein madad kar sakta hoon?"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_7ea19b4630a8",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Nay. Thank you."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.99902344
+    },
+    {
+      "id": "item_bfaef418cc2c",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Dhanyavaad"
+      ],
+      "interrupted": true
+    }
+  ]
+}
