@@ -69,7 +69,7 @@ def load_prompt_from_xml(xml_file_path="debtVoiceAgent.xml"):
 _default_instructions = load_prompt_from_xml()
 
 # Add transcript writing callback before connecting
-async def write_transcript(phone_number):
+def write_transcript(phone_number, ctx):
         current_date = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         # Create transcripts directory if it doesn't exist
@@ -97,7 +97,29 @@ async def entrypoint(ctx: JobContext):
     phone_number = ctx.job.metadata
     logger.info(f"dialing {phone_number} to room {ctx.room.name}")
  
-    ctx.add_shutdown_callback(write_transcript(phone_number))
+    # Create a callback function that will be called on shutdown
+    async def write_transcript():
+        current_date = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        # Create transcripts directory if it doesn't exist
+        os.makedirs("transcripts", exist_ok=True)
+        
+        # Save to transcripts directory instead of /tmp
+        filename = f"transcripts/transcript_{phone_number}_{current_date}.json"
+        
+        try:
+            # Get session from the context if available
+            session = getattr(ctx, '_session', None)
+            if session and hasattr(session, 'history'):
+                with open(filename, 'w') as f:
+                    json.dump(session.history.to_dict(), f, indent=2)
+                logger.info(f"📄 Transcript for {phone_number} saved to {filename}")
+            else:
+                logger.warning("No session history available for transcript")
+        except Exception as e:
+            logger.error(f"Failed to save transcript: {e}")
+    
+    ctx.add_shutdown_callback(write_transcript)
     
     await ctx.connect(auto_subscribe=AutoSubscribe.AUDIO_ONLY)
 

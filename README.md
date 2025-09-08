@@ -52,6 +52,7 @@ lk app env
 Run the agent:
 
 ```console
+source venv/bin/activate
 python3 agent.py dev
 ```
 
@@ -87,7 +88,7 @@ Open a new terminal while your agent is running. You can dispatch the agent to m
 lk dispatch create \
   --new-room \
   --agent-name outbound-caller \
-  --metadata '+1234567890'
+  --metadata '+918861643848'
 ```
 
 ### Helpful commands

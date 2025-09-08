@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "item_1d358c4ced84",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.8312988
+    },
+    {
+      "id": "item_a95a8501896b",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Namaste Jayanth ji, mera naam Abhishek hai, main Riverline Collections Inc. se baat kar raha hoon. Main aapko yaad dilane ke liye call kar raha hoon ki aapka Rs.10,250 ka payment 25th September 2025 tak due hai. \u0915\u0943\u092a\u092f\u093e \u0938\u092e\u092f \u0930\u0939\u0924\u0947 payment kar dein."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_0ea864418987",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Check your options there?"
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.78466797
+    },
+    {
+      "id": "item_f4310bdcd51b",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Bilkul Jayanth ji, agar aapko payment karne mein koi dikkat ho rahi hai ya options jaanna hai, toh bataiye. Aap EMI, online payment, ya bank transfer jaise options choose kar sakte hain. Main aapki madad ke liye yahan hoon."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_2fa9c59864fa",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Can I pay next month instead of this month?"
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.9980469
+    },
+    {
+      "id": "item_bb3253db1e3e",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Jayanth ji, samajh sakta hoon. Lekin kindly dhyaan rakhein ki payment 25th September 2025 tak due hai. Agar aap late karenge toh late fees ya penalties lag sakti hain. Agar zaroorat pade toh koi arrangement discuss kar sakte hain."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_d7429ef5af29",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "You know Raul Gandhi."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.7976074
+    },
+    {
+      "id": "item_1788d0ce28bb",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Maaf kijiye Jayanth ji, main sirf aapke payment reminder aur related queries mein madad kar sakta hoon. Agar aapko payment ke options ya kisi aur support ki zarurat hai toh please batayein."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_e7567c2bdd24",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Okay. Mister Narendra Modi will make the payment."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.9941406
+    },
+    {
+      "id": "item_2b76aab84508",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Don't worry."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 1.0
+    },
+    {
+      "id": "item_26c429b3b331",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Dhanyavaad Jayanth ji. Aapka payment reminder sirf aapke liye hai. Kripya time par Rs.10,250 ka payment 25th September 2025 se pehle kar dein, taki koi late fee na lage. Agar aapko kisi bhi help ki zarurat ho toh bataiye."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "item_8ef6318c6b20",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "No. Thank you."
+      ],
+      "interrupted": false,
+      "transcript_confidence": 0.99902344
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+============================================================
+CUSTOMER RISK ANALYSIS REPORT
+============================================================
+Generated: 2025-09-07 20:04:00
+Total Transcripts Analyzed: 4
+
+SUMMARY STATISTICS:
+--------------------
+Low Risk: 2 (50.0%)
+Medium Risk: 2 (50.0%)
+High Risk: 0 (0.0%)
+Critical Risk: 0 (0.0%)
+Average Risk Score: 15.8/100
+
+INDIVIDUAL ANALYSES:
+--------------------
+
+File: transcript_+12034356886_20250906_224245.json
+Risk Level: Medium
+Risk Score: 31.5/100
+Sentiment: 0.00
+Cooperation: 50.0%
+Key Indicators:
+  • Very brief response - possible disengagement
+Recommendations:
+  • Follow up within 1 week
+  • Send payment reminder via email/SMS
+  • Monitor account closely for changes
+  • Be prepared to offer flexible payment options
+----------------------------------------
+
+File: transcript_+918861643848_20250907_200334.json
+Risk Level: Medium
+Risk Score: 30.0/100
+Sentiment: 0.00
+Cooperation: 50.0%
+Key Indicators:
+  • Medium risk keyword: 'next month'
+Recommendations:
+  • Follow up within 1 week
+  • Send payment reminder via email/SMS
+  • Monitor account closely for changes
+  • Be prepared to offer flexible payment options
+----------------------------------------
+
+File: transcript_room-u9sd8TohivBg_20250906_203724.json
+Risk Level: Low
+Risk Score: 1.5/100
+Sentiment: 1.00
+Cooperation: 100.0%
+Recommendations:
+  • Standard follow-up schedule
+  • Customer appears cooperative
+  • Continue with normal collection process
+  • Consider this a positive interaction
+  • Customer was cooperative - maintain positive relationship
+----------------------------------------
+
+File: transcript_+918861643848_20250906_213624.json
+Risk Level: Low
+Risk Score: 0.0/100
+Sentiment: 1.00
+Cooperation: 100.0%
+Recommendations:
+  • Standard follow-up schedule
+  • Customer appears cooperative
+  • Continue with normal collection process
+  • Consider this a positive interaction
+  • Customer was cooperative - maintain positive relationship
+----------------------------------------
